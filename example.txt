@@ -1,0 +1,31 @@
+S->C: 220 Microsoft FTP Service (Version 5.0).
+C->S: USER anonymous
+S->C: 331 Anonymous login ok, send your complete email address as your password
+C->S: PASS name@localhost.localnet
+S->C: 230-Welcome to the University of California at Santa Barbara.
+230-
+230-FTP.ucsb.edu provides access via ftp, http and rsync protocols.
+230-
+230-Mirrors of software and sites may be found in /pub/mirrors, including:
+S->C: 230-
+230-  CPAN  FreeBSD  OpenSSH  analog  apache  blastwave  
+230-  cygwin  exim gnu  isc.org  lsof
+230-  majordomo  php  pine  procmail  rfc  samba  sendmail
+230-
+230-and in /pub/mirrors/linux, we have the following GNU/Linux distributions:
+230-
+230-  Centos  Debian  Fedora  Gentoo  Knoppix  Ubuntu 
+230-
+230-All transfers are logged with your IP and email address. If you don't
+230-like this policy, disconnect now!
+230-              
+230-The above mirrors are primarily for the benefit of UCSB constituents and
+230-represent software which is commonly used in our community. If you have
+230-suggestions, questions, or comments, please drop a note to the Campus
+230-Network Programmers at cnp@ucsb.edu.
+230 Anonymous access granted, restrictions apply
+C->S: TYPE I
+S->C: 200 Type set to I
+C->S: PASV
+S->C: 227 Entering Passive Mode (128,111,24,43,206,251).
+C->S: LIST
